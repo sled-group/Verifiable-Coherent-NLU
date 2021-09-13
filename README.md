@@ -25,7 +25,7 @@ Configure the cells below the first heading of [Verifiable-Coherent-NLU.ipynb](V
 You may either re-train the models from the papers, or use our pre-trained model instances (see below).
 
 ### Pre-Trained Model Instances
-Pre-trained model instances from the paper will be linked here soon. Copy the archive file to your own Google Drive, and unzip into a new directory `./saved_models`, then run inference on them as needed using the appropriate blocks in the notebook. The names of the provided pre-trained model directories are already listed in the configuration area for convenience.
+Pre-trained model instances from the paper are available [here](https://drive.google.com/file/d/1rOTzGSI33D0Wp1sy048dmQcwIDODJIz_/view?usp=sharing). Copy the archive file to your own Google Drive, and unzip into a new directory `./saved_models`, then run inference on them as needed using the appropriate blocks in the notebook. The names of the provided pre-trained model directories are already listed in the configuration area for convenience.
 
 ## Cite
 If you use our code or models in your work, please cite one of our following papers (both accepted to Findings of EMNLP 2021):
