@@ -3,9 +3,29 @@ Shared repository for TRIP dataset for verifiable NLU and coherence measurement 
 1. Shane Storks, Qiaozi Gao, Yichi Zhang, and Joyce Chai. (2021). [Tiered Reasoning for Intuitive Physics: Toward Verifiable Commonsense Language Understanding](https://arxiv.org/abs/2109.04947). In _Findings of EMNLP 2021_.
 2. Shane Storks and Joyce Chai. (2021). [Beyond the Tip of the Iceberg: Assessing Coherence of Text Classifiers](https://arxiv.org/abs/2109.04922). In _Findings of EMNLP 2021_.
 
+Please contact [Shane Storks](http://scr.im/sstorks) with any questions.
+
+## Getting Started
+
+Our results can be reproduced using the Python notebook file [Verifiable-Coherent-NLU.ipynb](Verifiable-Coherent-NLU.ipynb), which we ran in Colab (may require some adaptation for use in Jupyter).
+
+Clone the repo:
+```
+git clone https://github.com/sled-group/Verifiable-Coherent-NLU.git
+```
+
+You will then need to upload the contents of this folder to Google Drive.
+
+From the `Verifiable-Coherent-NLU` directory in your Google Drive, open [Verifiable-Coherent-NLU.ipynb](Verifiable-Coherent-NLU.ipynb) using [Google Colab](https://colab.research.google.com).
+
 ## Reproducing Results
 
-Coming soon!
+Configure the cells below the first heading of [Verifiable-Coherent-NLU.ipynb](Verifiable-Coherent-NLU.ipynb) as needed and run the **Setup** block to prepare the notebook for reproducing a specific set of results. Then navigate to the appropriate block to reproduce results on TRIP, Conversational Entailment, or ART. Each block will have sub-blocks for preparing the data (run every time), and for training and testing models.
+
+You may either re-train the models from the papers, or use our pre-trained model instances (see below).
+
+### Pre-Trained Model Instances
+Pre-trained model instances from the paper will be linked here soon. Copy the archive file to your own Google Drive, and unzip into a new directory `./saved_models`, then run inference on them as needed using the appropriate blocks in the notebook. The names of the provided pre-trained model directories are already listed in the configuration area for convenience.
 
 ## Cite
 If you use our code or models in your work, please cite one of our following papers (both accepted to Findings of EMNLP 2021):
@@ -57,5 +77,3 @@ Additionally, please consider citing [Conversational Entailment](https://sled.ee
       url={https://openreview.net/forum?id=Byg1v1HKDB}
   }
 ```
-
-Code and data release coming soon!
