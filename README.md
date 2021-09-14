@@ -25,7 +25,7 @@ Configure the cells below the first heading of [Verifiable-Coherent-NLU.ipynb](V
 You may either re-train the models from the papers, or use our pre-trained model instances (see below).
 
 ### Pre-Trained Model Instances
-Pre-trained model instances from the paper are available [here](https://drive.google.com/drive/folders/1gu3ZI2YrPbmrOtEqIS1XLG8U5c2eNiMc?usp=sharing). Each sub-directory indicates a model and (if applicable) a loss function configuration, while the archive files within are for each type of LM trained, e.g., [BERT](https://github.com/huggingface/transformers/tree/master/src/transformers/models/bert), [RoBERTa](https://github.com/huggingface/transformers/tree/master/src/transformers/models/roberta), or [DeBERTa](https://github.com/huggingface/transformers/tree/master/src/transformers/models/deberta). 
+Pre-trained model instances from the papers are available [here](https://drive.google.com/drive/folders/1gu3ZI2YrPbmrOtEqIS1XLG8U5c2eNiMc?usp=sharing). Each sub-directory indicates a model and (if applicable) a loss function configuration, while the archive files within are for each type of LM trained, e.g., [BERT](https://github.com/huggingface/transformers/tree/master/src/transformers/models/bert), [RoBERTa](https://github.com/huggingface/transformers/tree/master/src/transformers/models/roberta), or [DeBERTa](https://github.com/huggingface/transformers/tree/master/src/transformers/models/deberta). 
 
 Copy the desired archive file(s) within these directories to your own Google Drive, and unzip them into a new directory `./saved_models`. Run inference on them as needed using the appropriate blocks in the notebook. The names of the provided pre-trained model directories are already listed in the configuration area for convenience.
 
