@@ -30,15 +30,15 @@ Pre-trained model instances from the papers are available [here](https://drive.g
 Copy the desired archive file(s) within these directories to your own Google Drive, and unzip them into a new directory `./saved_models`. Run inference on them as needed using the appropriate blocks in the notebook. The names of the provided pre-trained model directories are already listed in the configuration area for convenience.
 
 ## Cite
-If you use our code or models in your work, please cite one of our following papers (both accepted to Findings of EMNLP 2021):
+If you use our code or models in your work, please cite one of our following papers from Findings of EMNLP 2021:
 ```
   @misc{storks2021tiered,
         title={Tiered Reasoning for Intuitive Physics: Toward Verifiable Commonsense Language Understanding}, 
         author={Shane Storks and Qiaozi Gao and Yichi Zhang and Joyce Chai},
         year={2021},
-        eprint={2109.04947},
-        archivePrefix={arXiv},
-        primaryClass={cs.CL}
+        booktitle={Findings of the Association for Computational Linguistics: EMNLP 2021},
+        location={Punta Cana, Dominican Republic},
+        publisher={Association for Computational Linguistics},
   }
 ```
 
@@ -47,9 +47,9 @@ If you use our code or models in your work, please cite one of our following pap
         title={Beyond the Tip of the Iceberg: Assessing Coherence of Text Classifiers}, 
         author={Shane Storks and Joyce Chai},
         year={2021},
-        eprint={2109.04922},
-        archivePrefix={arXiv},
-        primaryClass={cs.CL}
+        booktitle={Findings of the Association for Computational Linguistics: EMNLP 2021},
+        location={Punta Cana, Dominican Republic},
+        publisher={Association for Computational Linguistics},
   }
 ```
 
