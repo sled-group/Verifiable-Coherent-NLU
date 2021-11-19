@@ -7,7 +7,7 @@ Please contact [Shane Storks](http://scr.im/sstorks) with any questions.
 
 ## Getting Started
 
-Our results can be reproduced using the Python notebook file [Verifiable-Coherent-NLU.ipynb](Verifiable-Coherent-NLU.ipynb), which we ran in Colab (may require some adaptation for use in Jupyter).
+Our results can be reproduced using the Python notebook file [Verifiable-Coherent-NLU.ipynb](Verifiable-Coherent-NLU.ipynb), which we ran in Colab with Python 3.7 (may require some adaptation for use in Jupyter). Required dependencies are installed within the notebook.
 
 Clone the repo:
 ```
