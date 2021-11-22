@@ -1,0 +1,65 @@
+blis==0.7.4
+boto3 @ file:///tmp/build/80754af9/boto3_1629142476879/work
+botocore @ file:///tmp/build/80754af9/botocore_1629132638650/work
+brotlipy==0.7.0
+catalogue==2.0.6
+certifi==2021.10.8
+cffi @ file:///tmp/build/80754af9/cffi_1625814692085/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click @ file:///tmp/build/80754af9/click_1621604852318/work
+cryptography @ file:///tmp/build/80754af9/cryptography_1616767007030/work
+cycler==0.10.0
+cymem==2.0.5
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.1.0/en_core_web_sm-3.1.0-py3-none-any.whl
+filelock==3.2.0
+huggingface-hub==0.0.17
+idna @ file:///tmp/build/80754af9/idna_1622654382723/work
+importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1631916692253/work
+Jinja2==3.0.1
+jmespath @ file:///Users/ktietz/demo/mc3/conda-bld/jmespath_1630583964805/work
+joblib @ file:///tmp/build/80754af9/joblib_1613502643832/work
+jsonlines==2.0.0
+kiwisolver==1.3.2
+MarkupSafe==2.0.1
+matplotlib==3.4.3
+mkl-fft==1.3.0
+mkl-random==1.0.2
+mkl-service==2.3.0
+murmurhash==1.0.5
+numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1607448141537/work
+olefile @ file:///Users/ktietz/demo/mc3/conda-bld/olefile_1629805411829/work
+packaging==21.0
+pathy==0.6.0
+Pillow==8.3.2
+preshed==3.0.5
+progressbar==2.5
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+pydantic==1.8.2
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1608057966937/work
+pyparsing==2.4.7
+PySocks @ file:///tmp/build/80754af9/pysocks_1605305812635/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+PyYAML==5.4.1
+regex @ file:///tmp/build/80754af9/regex_1628063347754/work
+requests @ file:///tmp/build/80754af9/requests_1629994808627/work
+s3transfer @ file:///tmp/build/80754af9/s3transfer_1626435152308/work
+sacremoses @ file:///tmp/build/80754af9/sacremoses_1633107328213/work
+scikit-learn @ file:///tmp/build/80754af9/scikit-learn_1621370406642/work
+scipy @ file:///tmp/build/80754af9/scipy_1616703221928/work
+six @ file:///tmp/build/80754af9/six_1623709665295/work
+smart-open==5.2.1
+spacy==3.1.3
+spacy-legacy==3.0.8
+srsly==2.4.1
+thinc==8.0.10
+threadpoolctl @ file:///Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263681/work
+tokenizers==0.10.3
+torch==1.8.1
+torchvision==0.2.2
+tqdm @ file:///tmp/build/80754af9/tqdm_1631818572807/work
+transformers==4.11.3
+typer==0.4.0
+typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1631814937681/work
+urllib3 @ file:///tmp/build/80754af9/urllib3_1625084269274/work
+wasabi==0.8.2
+zipp @ file:///tmp/build/80754af9/zipp_1625570634446/work
