@@ -6,10 +6,29 @@ Shared repository for TRIP dataset for verifiable NLU and coherence measurement 
 Please contact [Shane Storks](http://scr.im/sstorks) with any questions.
 
 ## Getting Started
+Our results can be reproduced using the Python notebook file [Verifiable-Coherent-NLU.ipynb](Verifiable-Coherent-NLU.ipynb), which we ran in Colab with Python 3.7 (may require some adaptation for use in Jupyter). 
 
-Our results can be reproduced using the Python notebook file [Verifiable-Coherent-NLU.ipynb](Verifiable-Coherent-NLU.ipynb), which we ran in Colab with Python 3.7 (may require some adaptation for use in Jupyter). The required dependencies for Colab are installed within the notebook, while the exhaustive list of dependencies for any setup is given in [requirements.txt](requirements.txt).
+### Python Dependencies
+The required dependencies for Colab are installed within the notebook, while the exhaustive list of dependencies for any setup is given in [requirements.txt](requirements.txt). Out of these, the minimal requirements can be installed in a new Anaconda environment by the following commands:
+```
+conda create --name tripPy python=3.7
+conda activate tripPy
+pip install torch==1,7,1 torchvision==0.8.2 torchaudio==0.7.2
+pip install transformers==4.2.2
+pip install sentencepiece==0.1.96
+pip install deberta==0.1.12
+pip install spacy==3.2.0
+python -m spacy download en_core_web_sm
+pip install pandas==1.1.5
+pip install matplotlib==3.5.0
+pip install progressbar==3.38.0
+pip install ipykernel jupyter ipywidgets # For Jupyter Notebook setting
+```
 
-Clone the repo:
+If I'm missing any, please let me know!
+
+### Setup Details
+First clone the repo:
 ```
 git clone https://github.com/sled-group/Verifiable-Coherent-NLU.git
 ```
