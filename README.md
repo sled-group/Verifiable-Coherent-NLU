@@ -13,7 +13,7 @@ The required dependencies for Colab are installed within the notebook, while the
 ```
 conda create --name tripPy python=3.7
 conda activate tripPy
-pip install torch==1,7,1 torchvision==0.8.2 torchaudio==0.7.2
+pip install torch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2
 pip install transformers==4.2.2
 pip install sentencepiece==0.1.96
 pip install deberta==0.1.12
