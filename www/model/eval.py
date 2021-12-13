@@ -244,7 +244,7 @@ def evaluate_tiered(model, eval_dataloader, device, metrics, seg_mode=False, ret
   all_pred_stories = None
   all_stories = None  
   if return_softmax:
-    all_prob_stories
+    all_prob_stories = None
   
   if verbose:
     print('\t\tRunning prediction...')
