@@ -21,7 +21,7 @@ pip install spacy==3.2.0
 python -m spacy download en_core_web_sm
 pip install pandas==1.1.5
 pip install matplotlib==3.5.0
-pip install progressbar==3.38.0
+pip install progressbar2==3.38.0
 pip install ipykernel jupyter ipywidgets # For Jupyter Notebook setting
 ```
 
