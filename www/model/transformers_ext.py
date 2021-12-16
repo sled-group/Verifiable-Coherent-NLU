@@ -191,6 +191,8 @@ class TieredModelPipeline(nn.Module):
       config.num_labels = labels_per_att[i]
       self.precondition_classifiers.append(ClassificationHead(config, input_all_tokens=False).to(device))
       self.effect_classifiers.append(ClassificationHead(config, input_all_tokens=False).to(device))
+    self.precondition_classifiers = nn.ModuleList(self.precondition_classifiers)
+    self.effect_classifiers = nn.ModuleList(self.effect_classifiers)
     
     # Conflict detector components
     embedding_proj_size = 256
