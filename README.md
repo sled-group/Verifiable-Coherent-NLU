@@ -1,3 +1,5 @@
+**(May 2022)** We recently discovered a small typo in the test results reported for RoBERTa in Table 3 of our paper ([here](https://aclanthology.org/2021.findings-emnlp.422/) and [here](https://arxiv.org/abs/2109.04922)). We have submitted corrections to ACL and arXiv, so please refer to the revised versions of the paper once they are processed. Thank you to Oren Sultan for bringing this to our attention!
+
 # Verifiable-Coherent-NLU
 Shared repository for TRIP dataset for verifiable NLU and coherence measurement for text classifiers. Covers the following upcoming publications in Findings of EMNLP 2021:
 1. Shane Storks, Qiaozi Gao, Yichi Zhang, and Joyce Chai. (2021). [Tiered Reasoning for Intuitive Physics: Toward Verifiable Commonsense Language Understanding](https://arxiv.org/abs/2109.04947). In _Findings of EMNLP 2021_.
